@@ -1,0 +1,127 @@
+html {
+    font-family: roboto, arial, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-family: "Licorice", cursive;
+    font-size: 3rem;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    
+}
+
+header li {
+    margin: auto;
+    padding: 1rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.aboutme {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: auto;
+    column-gap: .75rem;
+    row-gap: .75rem;
+    grid-template-areas:
+        "header header"
+        "info photo"
+}
+
+.aboutme h2 {
+    grid-area: header;
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: "licorice", cursive;
+    
+}
+
+.aboutme p {
+    grid-area: info;
+}
+
+.aboutme img {
+    max-height: 300px;
+    grid-area: photo;
+    border-radius: 50%;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: auto;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: "licorice", cursive;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+.projects #photos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.projects img {
+    border: 1px black solid;
+    height: 12rem;
+    max-width: 20rem;
+}
+
+.skills ul {
+    list-style-type: circle;
+}
+
+.contactme ul {
+    list-style-type: circle;
+}
+
+.contactme h3 {
+    font-weight: 400;
+}
+
+#aboutthisproject {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#aboutthisproject img {
+    width: 100%;
+    border: 1px black solid;
+}
+
+figcaption a {
+    color: purple;
+}
+
+#aboutthisproject ul {
+    list-style-type: circle;
+}
