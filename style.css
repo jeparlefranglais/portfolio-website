@@ -33,6 +33,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: gray;
+}
+
 .aboutme {
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -79,6 +83,7 @@ h3 {
     font-size: 1.5rem;
     font-weight: 100;
 }
+
 .projects #photos {
     width: 100%;
     display: flex;
@@ -101,9 +106,11 @@ h3 {
     list-style-type: circle;
 }
 
-.contactme h3 {
-    font-weight: 400;
+.contactme h4 {
+    font-weight: 200;
+    font-size: 1.25rem;
 }
+
 
 #aboutthisproject {
     width: 100%;
@@ -124,4 +131,9 @@ figcaption a {
 
 #aboutthisproject ul {
     list-style-type: circle;
+}
+
+footer h6 {
+    padding-top: 2rem;
+    font-weight: 100;
 }
